@@ -1,0 +1,51 @@
+body{
+    /* Reseting the content */
+    margin: 0;
+    padding: 0;
+    background: url('./asset/image/background.jpg');
+    background-size: cover;
+}
+/* style for navigation */
+.navBar{
+    display: inline-block;
+    margin: 20px;
+}
+.navBar ul{
+    overflow: hidden;
+}
+.navBar ul li{
+    float: left;
+    list-style-type: none;
+}
+.navBar ul li a{
+    text-decoration: none;
+    color:white;
+    margin: 5px 5px;
+    padding: 30px 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+.navBar ul li a:hover{
+    background-color: black;
+    border-radius: 50px;
+}
+/* style for logo */
+#logo{
+    float: left;
+    margin: 4px 4px;
+}
+#logo img{
+    margin-left: 10px;
+    border-radius: 50%;
+}
+#logo-text{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+/* style for side button */
+#sideButton{
+    float: right;
+}
