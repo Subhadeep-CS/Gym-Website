@@ -8,7 +8,9 @@ body{
 /* style for navigation */
 .navBar{
     display: inline-block;
-    margin: 20px;
+    margin: 5px 5px;
+    position: absolute;
+    left: 300px;
 }
 .navBar ul{
     overflow: hidden;
@@ -16,12 +18,13 @@ body{
 .navBar ul li{
     float: left;
     list-style-type: none;
+    margin: 10px 10px;
 }
-.navBar ul li a{
+.navBar a{
     text-decoration: none;
     color:white;
     margin: 5px 5px;
-    padding: 30px 10px;
+    padding: 10px 6px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
     font-size: 20px;
@@ -29,7 +32,7 @@ body{
 }
 .navBar ul li a:hover{
     background-color: black;
-    border-radius: 50px;
+    border-radius: 50%;
 }
 /* style for logo */
 #logo{
@@ -46,6 +49,23 @@ body{
     font-size: 20px;
 }
 /* style for side button */
-#sideButton{
+.sideButton{
     float: right;
+    /* position: relative;
+    left: 120px; */
+    margin: 30px 30px;
+}
+.sideButton a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 5px;
+    margin: 2px 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    /* border: 2px solid black; */
+}
+.sideButton a:hover{
+    background-color: black;
+    border-radius: 50%;
 }
